@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* car demo styles */
+
+.car-demo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.demo-head {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-head h3 {
+    color: #ad3124;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.demo-head h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+
+/* jeep section */
+
+.jeep {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.jeep-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jeep-image img {
+    width: 100%;
+    height: 548px;
+}
+
+.jeep-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.jeep-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.jeep-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.jeep-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.jeep-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jeep-parts h3 {
+    font-size: 1.5rem;
+}
+
+.jeep-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.jeep-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of jeep section */
+
+
+/* jeep section */
+
+.chrysler {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.chrysler-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 0px;
+    transform: scale(1, 1);
+}
+
+.chrysler-image img {
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    object-fit: cover;
+}
+
+.chrysler-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.chrysler-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.chrysler-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.chrysler-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.chrysler-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chrysler-parts h3 {
+    font-size: 1.5rem;
+}
+
+.chrysler-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.chrysler-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of chrysler section */
+
+
+/* chevrolet section */
+
+.chevrolet {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.chevrolet-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.chevrolet-image img {
+    width: 600px;
+    height: 550px;
+}
+
+.chevrolet-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(17, 17, 17);
+    padding: 55px;
+    z-index: 99;
+}
+
+.chevrolet-text h1 {
+    font-size: 3rem;
+    display: flex;
+}
+
+.chevrolet-text span {
+    margin-top: 20px;
+    border: 1px solid #ad3124;
+    width: 10%;
+}
+
+.chevrolet-text p {
+    margin-top: 15px;
+    line-height: 1.8;
+    width: 100%;
+}
+
+.chevrolet-parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chevrolet-parts h3 {
+    font-size: 1.5rem;
+}
+
+.chevrolet-parts p {
+    display: flex;
+    align-items: center;
+}
+
+.chevrolet-parts i {
+    color: #ad3124;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/* end of chevrolet section */
+
+
+/* end of car demo styles */
+
+
+/* request section */
+
+.request-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background: #e74c3c;
+}
+
+.request-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.request-text h1 {
+    font-size: 5rem;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.request-text p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.request-button {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-button button {
+    padding: 25px;
+    width: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* end of request section */
+
+
+/* footer styles */
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    background: #000;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contents a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.footer-contents a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.footer-contents h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.footer-contents p {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.footer-icons {
+    margin-top: 30px;
+}
+
+.footer-icons i {
+    background: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    cursor: pointer;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+    background: #464443;
+    border: none;
+}
+
+#form button {
+    margin-top: 20px;
+    border: none;
+    background: #e74c3c;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* footer styles */
+
+
+/* chevron styles */
+
+
+/* .chevron {
+    display: flex;
+    position: absolute;
+    background: #e74c3c;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    top: 1225%;
+    cursor: pointer;
+}
+
+.chevron i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} */
+
+#myButton {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #e74c3c;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    z-index: 99;
+    color: #fff;
+    padding: 10px;
+    transition: ease .5s;
+}
+
+#myButton i {
+    padding: 10px;
+    display: flex;
+}
+
+
+/* end of chevron styles */
